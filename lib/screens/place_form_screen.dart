@@ -17,7 +17,7 @@ class _PlaceFormScreenState extends State<PlaceFormScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Novo Lugar'),
+        title: const Text('Novo Lugar'),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
