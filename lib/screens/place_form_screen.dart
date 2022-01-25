@@ -25,7 +25,7 @@ class _PlaceFormScreenState extends State<PlaceFormScreen> {
       return;
     }
 
-    Provider.of<GretaPlaces>(context, listen: false).addPlace(
+    Provider.of<GreatPlaces>(context, listen: false).addPlace(
       _titleController.text,
       _pickedImage!,
     );

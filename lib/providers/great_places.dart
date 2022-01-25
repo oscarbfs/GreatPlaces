@@ -4,7 +4,7 @@ import 'dart:math';
 import 'package:flutter/cupertino.dart';
 import 'package:great_places/models/place.dart';
 
-class GretaPlaces with ChangeNotifier {
+class GreatPlaces with ChangeNotifier {
   List<Place> _items = [];
 
   List<Place> get items {
